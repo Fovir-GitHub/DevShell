@@ -34,8 +34,6 @@
 
         echo "Entering the development environment!"
         echo "Node: $(node -v), npm: $(npm -v)"
-
-        trap 'echo "Leaving the development environment!"' EXIT
       '';
     };
   };

@@ -24,10 +24,9 @@
 
         echo 'Just Operations:'
         echo '  "just init" -- initialize MySQL.'
-        echo '  "just server" -- enter MySQL server.'
-        echo '  "just start" -- enter MySQL shell.'
-
-        trap 'mysqladmin -u root --socket ./data/mysql.sock shutdown; echo "Leaving the development environment!"' EXIT
+        echo '  "just start" -- start MySQL server.'
+        echo '  "just exec" -- enter MySQL shell.'
+        echo '  "just stop" -- stop MySQL server.'
       '';
     };
   };

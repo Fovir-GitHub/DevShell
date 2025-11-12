@@ -38,8 +38,6 @@
 
         alias dev="pnpm vite --host 127.0.0.1 --open"
         alias build="pnpm vite build"
-
-        trap 'echo "Leaving the development environment!"' EXIT
       '';
     };
   };

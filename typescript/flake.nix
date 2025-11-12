@@ -33,8 +33,6 @@
 
         echo "Entering the development environment!"
         echo "Node: $(node -v), npx: $(npx -v)"
-
-        trap 'echo "Leaving the development environment!"' EXIT
       '';
     };
   };

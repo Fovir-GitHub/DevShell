@@ -13,8 +13,6 @@
     devShells.${system}.default = pkgs.mkShell {
       shellHook = ''
         echo "Entering the development environment!"
-
-        trap 'echo "Leaving the development environment!"' EXIT
       '';
     };
   };

@@ -24,7 +24,6 @@
         zola --version
 
         npm install --no-save prettier prettier-plugin-toml prettier-plugin-jinja-template
-        trap 'echo "Leaving the development environment!"' EXIT
       '';
     };
   };

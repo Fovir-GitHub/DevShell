@@ -41,8 +41,6 @@
         alias build="pnpm next build"
         alias start="pnpm next start"
         alias lint="pnpm next lint"
-
-        trap 'echo "Leaving the development environment!"' EXIT
       '';
     };
   };
