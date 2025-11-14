@@ -9,19 +9,19 @@ Please ensure that your NixOS has enabled `flake` features before running the fo
 ## Use Default Template
 
 ```bash
-nix flake init -t github:FovirOS/DevShell
+nix flake init -t github:Fovir-GitHub/DevShell
 ```
 
 ## Select a Specific Environment
 
 ```bash
-nix flake init -t github:FovirOS/DevShell#<environment>
+nix flake init -t github:Fovir-GitHub/DevShell#<environment>
 ```
 
 Replace `<environment>` with the specific environment name. For example, to use `Node.js` template, the command should be:
 
 ```bash
-nix flake init -t github:FovirOS/DevShell#nodejs
+nix flake init -t github:Fovir-GitHub/DevShell#nodejs
 ```
 
 The environments currently supported are:
@@ -46,4 +46,10 @@ After initializing the template, it can be modified to meet the environment requ
 
 ```bash
 nix develop
+```
+
+Or using `direnv`:
+
+```bash
+direnv allow
 ```
