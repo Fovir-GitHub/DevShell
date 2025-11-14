@@ -38,6 +38,7 @@ The environments currently supported are:
 | Java         | `java`                |
 | Hugo         | `hugo`                |
 | MySQL        | `mysql`               |
+| Rust         | `rust`                |
 
 ## After Initialization
 

@@ -47,6 +47,10 @@
         path = ./mysql;
         description = "MySQL";
       };
+      rust = {
+        path = ./rust;
+        description = "Rust";
+      };
     };
   };
 }
