@@ -39,6 +39,7 @@ The environments currently supported are:
 | Hugo         | `hugo`                |
 | MySQL        | `mysql`               |
 | Rust         | `rust`                |
+| Go           | `go`                  |
 
 ## After Initialization
 
