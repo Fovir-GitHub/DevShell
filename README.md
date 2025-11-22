@@ -40,6 +40,7 @@ The environments currently supported are:
 | MySQL        | `mysql`               |
 | Rust         | `rust`                |
 | Go           | `go`                  |
+| C/C++        | `c-cpp`               |
 
 ## After Initialization
 

@@ -7,6 +7,10 @@
         path = ./default;
         description = "Default DevShell Template";
       };
+      c-cpp = {
+        path = ./c-cpp;
+        description = "C/C++";
+      };
       nodejs = {
         path = ./nodejs;
         description = "Node.js DevShell Template";
