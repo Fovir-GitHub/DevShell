@@ -22,6 +22,7 @@
       buildInputs = with pkgs; [
         bear
         cgdb
+        clang
         clang-tools
         cmake
         gcc
@@ -33,7 +34,7 @@
       # Shell hooks.
       shellHook = ''
         echo "Entering the development environment!"
-        cp ${clangdConfig} .clangd
+        ln -sf ${clangdConfig} .clangd
       '';
     };
   };
