@@ -59,6 +59,10 @@
         path = ./go;
         description = "Go";
       };
+      sui = {
+        path = ./sui;
+        description = "SUI";
+      };
     };
   };
 }

@@ -41,6 +41,7 @@ The environments currently supported are:
 | Rust         | `rust`                |
 | Go           | `go`                  |
 | C/C++        | `c-cpp`               |
+| SUI          | `sui`                 |
 
 ## After Initialization
 
