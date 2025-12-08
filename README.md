@@ -42,6 +42,7 @@ The environments currently supported are:
 | Go           | `go`                  |
 | C/C++        | `c-cpp`               |
 | SUI          | `sui`                 |
+| Tex          | `tex`                 |
 
 ## After Initialization
 

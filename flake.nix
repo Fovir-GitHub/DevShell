@@ -63,6 +63,10 @@
         path = ./sui;
         description = "SUI";
       };
+      tex = {
+        path = ./tex;
+        description = "Tex";
+      };
     };
   };
 }

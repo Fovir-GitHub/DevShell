@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage[backend=biber,sorting=none,style=apa]{biblatex}
+\addbibresource{main.bib}
+
+\usepackage{pdfpages}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+
+\title{Title Here}
+\author{Author Here}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\maketitle
+\newpage
+
+\pagenumbering{gobble}
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+% \input{} or content here.
+
+\thispagestyle{empty}
+\phantomsection
+\setcounter{page}{1}
+\renewcommand{\thepage}{A\arabic{page}}
+\addcontentsline{toc}{section}{List of References}
+\printbibliography
+\newpage
+
+\end{document}
