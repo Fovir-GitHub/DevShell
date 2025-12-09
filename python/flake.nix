@@ -14,7 +14,10 @@
       # Add packages here.
       buildInputs = with pkgs; [
         python313
-        python313Packages.pip
+        (pkgs.python3.withPackages (python-pkgs:
+          with python-pkgs; [
+            # Python packages:
+          ]))
       ];
 
       # Shell hooks.
