@@ -43,6 +43,7 @@ The environments currently supported are:
 | C/C++        | `c-cpp`               |
 | SUI          | `sui`                 |
 | Tex          | `tex`                 |
+| Python       | `python`              |
 
 ## After Initialization
 

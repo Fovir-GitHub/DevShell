@@ -67,6 +67,10 @@
         path = ./tex;
         description = "Tex";
       };
+      python = {
+        path = ./python;
+        description = "Python";
+      };
     };
   };
 }
