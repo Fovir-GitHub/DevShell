@@ -14,7 +14,7 @@
       CompileFlags:
         Add:
           - -isystem${pkgs.libcxx.dev}/include/c++/v1
-          - -std=c++20
+          - -std=c++17
     '';
   in {
     devShells.${system}.default = pkgs.mkShell {
