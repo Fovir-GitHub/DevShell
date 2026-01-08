@@ -9,29 +9,27 @@
   }: let
     system = "x86_64-linux";
     pkgs = import nixpkgs {inherit system;};
-
     clangdConfig = pkgs.writeText ".clangd" ''
       CompileFlags:
         Add:
+          - -isystem${pkgs.glibc.dev}/include
           - -isystem${pkgs.libcxx.dev}/include/c++/v1
+          - -isystem${pkgs.clang}/resource-root/include
+          - -stdlib=libc++
           - -std=c++17
     '';
   in {
     devShells.${system}.default = pkgs.mkShell {
-      # Add packages here.
       buildInputs = with pkgs; [
         bear
         cgdb
         clang
         clang-tools
         cmake
-        gcc
         gdb
         gnumake
         libcxx
       ];
-
-      # Shell hooks.
       shellHook = ''
         echo "Entering the development environment!"
         ln -sf ${clangdConfig} .clangd
