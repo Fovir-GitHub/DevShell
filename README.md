@@ -28,22 +28,23 @@ The environments currently supported are:
 
 | Name         | `<environment>` Value |
 | ------------ | --------------------- |
-| Node.JS      | `nodejs`              |
-| Front End    | `frontend`            |
-| React + Vite | `react-vite`          |
-| TypeScript   | `typescript`          |
-| Next.JS      | `nextjs`              |
-| SVG          | `svg`                 |
-| Zola         | `zola`                |
-| Java         | `java`                |
-| Hugo         | `hugo`                |
-| MySQL        | `mysql`               |
-| Rust         | `rust`                |
-| Go           | `go`                  |
+| ARM          | `arm`                 |
 | C/C++        | `c-cpp`               |
-| SUI          | `sui`                 |
-| Tex          | `tex`                 |
+| Front End    | `frontend`            |
+| Go           | `go`                  |
+| Hugo         | `hugo`                |
+| Java         | `java`                |
+| MySQL        | `mysql`               |
+| Next.JS      | `nextjs`              |
+| Node.JS      | `nodejs`              |
 | Python       | `python`              |
+| React + Vite | `react-vite`          |
+| Rust         | `rust`                |
+| SUI          | `sui`                 |
+| SVG          | `svg`                 |
+| Tex          | `tex`                 |
+| TypeScript   | `typescript`          |
+| Zola         | `zola`                |
 
 ## After Initialization
 
