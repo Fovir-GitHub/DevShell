@@ -44,6 +44,7 @@ The environments currently supported are:
 | SVG          | `svg`                 |
 | Tex          | `tex`                 |
 | TypeScript   | `typescript`          |
+| Venv         | `venv`                |
 | Zola         | `zola`                |
 
 ## After Initialization

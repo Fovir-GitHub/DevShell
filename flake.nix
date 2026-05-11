@@ -71,6 +71,10 @@
         path = ./python;
         description = "Python";
       };
+      venv = {
+        path = ./venv;
+        description = "Venv";
+      };
     };
   };
 }
